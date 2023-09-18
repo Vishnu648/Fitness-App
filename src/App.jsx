@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar"
+import Home from "./page/Home"
+
 const App = () => {
   return (
-    <div className="bg-black text-white">
-      App
+    <div className="text-white">
+      <Navbar/>
+      <Home/>
     </div>
   )
 }
