@@ -2,12 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-image:linear-gradient(to left, #010511 , #373f48);
-    padding:0 2rem;
+body {
+    background-image: linear-gradient(to left, #010511, #373f48);
+    padding: 0 2rem;
     max-width: 1440px;
     margin: 0 auto;
+    height: 2000px;
 }
-a{
+
+a {
     cursor: pointer;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* Width of the scrollbar */
+    background-color: #243b55;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color of the thumb on hover */
 }
